@@ -1,0 +1,275 @@
+body{
+	color: #BBAEAB;
+	font-family: Courier New, monospace;
+}
+
+.agasalhos{
+	font-size: 20px;
+}
+
+.campoEscondido {
+	display:none;
+}
+
+
+p {
+	text-indent: 2.5em;
+	margin-top: 0 
+}
+  
+p + p{
+	text-indent: 2.5em;
+	margin-top: 2em 
+}
+
+.menu{ 
+	font-family: arial;
+	font-size: 18px;
+	background-color: rgba(0,0,0,0.70);
+	
+}
+
+
+h1{
+	font-size: 45px;
+}
+.h1-aux{
+	font-size: 16px;
+}
+h2{
+	font-size: 45px;
+	text-align: right;
+	padding-top: 35px;
+}
+h3{
+	font-size: 45px;
+	text-align: left;
+	padding-top: 140px;
+}
+h4{
+	font-size: 50px;
+	text-align: right;
+	padding-right: 40px;
+	padding-top: 30px;
+}
+
+h5{
+	font-size: 35px;
+}
+
+h6{
+	font-size: 27px;
+}
+
+
+.slideinicio {
+    background-image: url(../img/pikachuLupa.jpg);
+}
+
+.slidesugestao{
+    background-image: url(../img/sugestoes.png);
+}
+
+.slideconheca {
+    background-image: url(../img/time.jpg);
+}
+
+.slideperdi {
+    background-image: url(../img/perdi.png);
+    background-position: center;
+}
+
+.slide {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 450px;
+}
+
+.title-image {
+    
+}
+
+
+.title-image p {
+    padding-left: 130px;
+    color: white;
+}
+
+.title-index{
+	padding-top: 140px;
+    padding-left: 15px;
+}
+
+.title-contato{
+	padding-top: 190px;
+    padding-right: 100px;
+}
+.title-conheca{
+	padding-top: 20px;
+    padding-left:30px;
+}
+.title-perdi{
+	padding-top: 140px;
+    padding-right: 20px;
+}
+
+/*Formulários da página de perdas*/
+
+.itens {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.img-pendrive{
+	height: 70px;
+	width: 130px;
+	cursor: pointer;
+}
+
+.img-guardachuva{
+	height: 90px;
+	width: 130px;
+  cursor: pointer;
+}
+.img-casaco{
+
+  cursor: pointer;
+}
+.img-rg{
+	height: 90px;
+	width:70px;
+	  
+}
+.img-mochila{
+	height: 80px;
+	width:100px;
+	
+
+}
+.img-chave{
+	height: 90px;
+  width:80px;
+	cursor: pointer;
+
+}
+
+
+
+
+.titulo-centralizado {
+    text-align: center;
+
+}
+
+article h3 {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    margin: 0 auto;
+}
+
+.text_bellow{
+    position:absolute;
+    bottom: 90px;
+	right: 110px;
+    text-align: center;
+    color: white;
+    font-size:30px;
+    font-weight: 300;
+  }
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  transform:skew(-10deg);
+}
+
+img {
+	width: 100%;
+	height:100%;
+	
+}
+
+
+/*Swiper página principal*/
+
+.swiper-slide:hover{
+  width:35%;
+  transition:0.7s;
+}
+.swiper-slide:not(hover){
+	padding-top: 70px;
+	padding-bottom: 70px;
+  width:23%;
+  transition:0.7s;
+}
+.swiper-container {
+	
+    width: 100%;
+    height: 540px;
+}
+.swiper-pagination {
+  width: 20%;
+  margin-left: 40%;
+}
+.swiper-pagination-bullet {
+  background-color:#c40000;
+  width: 14px;
+  height: 14px;
+  margin-left: 8px;
+  margin-top: 40px;
+}
+
+/*Rodapé*/
+
+footer{
+    border-top: 1px solid darkgray;
+    padding: 10px;
+  
+    
+    margin-top: 30px;
+}
+
+footer p {
+	font-size: 18px;
+	text-align: center;
+ 
+}
+.voltarTopo{
+	font-size: 20px;
+	margin-left: 3s0px;
+	margin-top: 50px;
+	
+}
+.title-redes{
+	font-size: 25px;
+	text-align: right;
+	padding-right: 120px;
+	
+}
+
+.redes-sociais{
+	
+	text-align: right;
+	margin-right: 80px;
+	margin-bottom: 20 px;
+
+}
+.voltarTopoLogo{
+	margin-left: 10px;
+	width:60px;
+	height:60px;
+}
+.logo{
+	filter: grayscale(100%);
+	width: 50px;
+	height: 50px;
+}
+
+.logo:hover {
+    filter: none;
+}
+
